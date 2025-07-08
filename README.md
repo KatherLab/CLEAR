@@ -258,6 +258,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 For questions about the code or paper, please contact:
-- Jakob Nikolas Kather: jakob_nikolas.kather@tu-dresden.de
+- Jakob Nikolas Kather: kather.jn@tu-dresden.de
 - Open an issue on GitHub for technical problems
 
