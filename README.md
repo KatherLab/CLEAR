@@ -8,6 +8,8 @@ Radiology deep learning pipelines predominantly employ end-to-end 3D networks ba
 
 To address this gap, we propose **CLEAR**, a framework for 3D radiology images that uses extracted embeddings from 2D slices along with attention-based aggregation to efficiently predict clinical endpoints. As part of this framework, we introduce **LeCL** (Lesion-enhanced Contrastive Learning), a novel approach to obtain visual representations driven by abnormalities in 2D axial slices across different locations of the CT scans.
 
+Specifically, we trained single-domain contrastive learning approaches using three different architectures: Vision Transformers, Vision State Space Models and Gated Convolutional Neural Networks. We evaluate our approach across three clinical tasks: tumor lesion location, lung disease detection, and patient staging, benchmarking against four state-of-the-art foundation models, including BiomedCLIP. Our findings demonstrate that Clear, using representations learned through Lecl, outperforms existing foundation models, while being substantially more compute- and data-efficient.
+
 ## Overview
 
 Radiology deep learning pipelines often rely on computationally expensive 3D models pre-trained on unrelated tasks. CLEAR introduces a novel framework for 3D radiology imaging that leverages 2D slice embeddings and attention-based aggregation to efficiently predict clinical endpoints. The framework includes **Lesion-enhanced Contrastive Learning (LeCL)**, a semi-supervised method for learning visual representations driven by abnormalities in 2D axial slices.
@@ -252,10 +254,6 @@ If you use this code, please cite our paper:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contributing
-
-Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
 
 ## Contact
 
