@@ -54,7 +54,7 @@ torchvision_model_names = sorted(name for name in torchvision_models.__dict__
     and callable(torchvision_models.__dict__[name]))
 
 model_names = ['vit_small', 'vit_base', 'vit_conv_small', 'vit_conv_base', 'swin',
-               'swin_base','maxvit_tiny','maxvit_small','maxvit_base','maxvit_nano','swin_small_256',
+               'swin_base','swin_small_256',
                'swin_tiny_256','vmamba','mambaout'] + torchvision_model_names
 
 parser = argparse.ArgumentParser(description='MoCo ImageNet Pre-Training')
