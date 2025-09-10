@@ -1,6 +1,6 @@
 # CLEAR: Contrastive Learning-based Embeddings for Attention-based Radiology
 
-This repository contains the code for the MICCAI paper **"Abnormality-Driven Representation Learning for Radiology Imaging"** by Marta Ligero, Tim Lenz, Georg Wölflein, Omar S.M. El Nahhas, Daniel Truhn, and Jakob Nikolas Kather.
+This repository contains the code for the MICCAI paper [**"Abnormality-Driven Representation Learning for Radiology Imaging"**](https://papers.miccai.org/miccai-2025/paper/4381_paper.pdf) by Marta Ligero, Tim Lenz, Georg Wölflein, Omar S.M. El Nahhas, Daniel Truhn, and Jakob Nikolas Kather.
 
 ## Abstract
 
@@ -243,11 +243,14 @@ export CUDA_LAUNCH_BLOCKING=1  # For debugging CUDA errors
 
 If you use this code, please cite our paper:
 ```bibtex
-@inproceedings{ligero2024clear,
-  title={Abnormality-Driven Representation Learning for Radiology Imaging},
-  author={Ligero, Marta and Lenz, Tim and W{\"o}lflein, Georg and El Nahhas, Omar S.M. and Truhn, Daniel and Kather, Jakob Nikolas},
-  booktitle={MICCAI},
-  year={2025}
+@InProceedings{Ligero_2025_MICCAI,
+author = { Ligero*, Marta and Lenz*, Tim and W{\"o}lflein, Georg and El Nahhas, Omar S. M. and Truhn, Daniel and Kather, Jakob Nikolas},
+title = { { Abnormality-Driven Representation Learning for Radiology Imaging } },
+booktitle = {proceedings of Medical Image Computing and Computer Assisted Intervention -- MICCAI 2025},
+year = {2025},
+publisher = {Springer Nature Switzerland},
+volume = {LNCS 15963},
+month = {September},
 }
 ```
 
