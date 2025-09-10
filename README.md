@@ -254,10 +254,6 @@ month = {September},
 }
 ```
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Contact
 
 For questions about the code or paper, please contact:
